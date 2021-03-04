@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 04 Notes</title>
+    </head>
+    <body>
+        <h1>Apply For College</h1>
+        <form action="mailto:kwalke13@syr.edu" method="POST">
+    
+            <!--first name-->
+            <label for="firstname"> Type Your First Name:</label>
+            <input type="text" name="firstname" id="firstname"><br>
+            <!--comments-->
+            <label for="comments">Comments?</label>
+            <textarea name="comments" id="comments" rows="3" cols="50">Type your comments here.</textarea><br>
+            </textarea>
+            
+            <!--radio button-->
+            <p> Please choose your year in school</p>
+
+            <input type="radio" name="schoolyear" id="schoolyearfr" value="freshman">
+            <label for="schoolyearfr">freshman</label>
+            <input type="radio" name="schoolyear" id="schoolyearso" value="sophomore">
+            <label for="schoolyearso">sophomore</label>
+            <input type="radio" name="schoolyear" id="schoolyearju" value="junior">
+            <label for="schoolyearju">junior</label>
+            <input type="radio" name="schoolyear" id="schoolyearse" value="senior">
+            <label for="schoolyearse">senior</label><br>
+
+            <!--Checkbox-->
+            <input type="checkbox" name="veteran" id="veteran" value="Yes">
+            <label for="veteran">Veteran?</label><br>
+
+            <!--selectdown-->
+            <label for="start"> When are you starting?</label>
+            <select name="start" id="start">
+                <option value="F21">Fall 2021</option>
+                <option value="S22">Spring 2022</option>
+            </select><br>
+        
+        
+
+            <!--submit button-->
+            <input type="submit" value="Send Application">
+        
+        </form>
+    </body>
+</html>
